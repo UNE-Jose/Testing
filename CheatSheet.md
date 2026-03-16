@@ -39,9 +39,10 @@ The core of your database interaction.
 * **Find all:** `db.collection.find({})`
 * **Filter by field:** `db.collection.find({ status: "active" })`
 * **Format output:** `db.collection.find().pretty()`
-* **Limit/Skip (Pagination):** ```javascript
+* **Limit/Skip (Pagination):**
+```javascript
 db.collection.find().skip(10).limit(5)
-
+```
 
 #### Common Query Operators
 
