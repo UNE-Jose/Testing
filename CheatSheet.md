@@ -41,11 +41,6 @@ The core of your database interaction.
 * **Format output:** `db.collection.find().pretty()`
 * **Limit/Skip (Pagination):** ```javascript
 db.collection.find().skip(10).limit(5)
-```
-
-
-```
-
 
 
 #### Common Query Operators
